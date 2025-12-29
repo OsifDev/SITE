@@ -11,7 +11,7 @@ body { font-family: Arial; padding:20px; }
 </head>
 <body>
 <h1>שלום Demo User</h1>
-<p>יתרה: 1000 ₪</p>
+<p>יתרה: 1000 ?</p>
 
 <h2>חיסכון</h2>
 <p>מודול חיסכון - בקרוב</p>
@@ -37,7 +37,7 @@ async function invest() {
         const data = await res.json();
         if (data.error) { alert(data.error); return; }
         document.getElementById('investmentResult').innerText =
-            השקעת  ₪. תשואה חודשית צפויה:  ₪;
+            השקעת  ?. תשואה חודשית צפויה:  ?;
     } catch(e) { alert("שגיאה בחיבור לשרת"); }
 }
 </script>
@@ -71,6 +71,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<footer>© 2025 SITE - Frontend Demo</footer>
+<footer>c 2025 SITE - Frontend Demo</footer>
 </body>
 </html>
