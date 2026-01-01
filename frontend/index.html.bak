@@ -8,6 +8,7 @@
 body { font-family: Arial; padding:20px; }
 #termsModal { display:none; }
 </style>
+<link rel='stylesheet' href='assets/css/style.css'>
 </head>
 <body>
 <h1>שלום Demo User</h1>
@@ -72,5 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <footer>c 2025 SITE - Frontend Demo</footer>
+<script src='assets/js/main.js'></script>
 </body>
 </html>
+
